@@ -1,0 +1,14 @@
+.container {
+  width: 800px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin: 0 auto;
+}
+
+.phoneBook {
+  margin-bottom: 20px;
+}
+
+.contacts {
+  margin-bottom: 20px;
+}

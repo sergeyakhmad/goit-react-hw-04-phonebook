@@ -1,0 +1,27 @@
+.list {
+  width: 300px;
+  list-style: none;
+}
+
+.item {
+  display: flex;
+  justify-content: space-between;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.item:not(:last-child) {
+  margin-bottom: 10px;
+}
+
+.button {
+  padding: 2px;
+  text-align: center;
+  border-radius: 4px;
+}
+
+.button:hover,
+.button:focus {
+  color: #f74c4c;
+  border-color: #f74c4c;
+}
